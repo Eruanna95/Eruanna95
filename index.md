@@ -10,8 +10,10 @@ _**Attention!**This content can shock u_
 1. Im funny
 2. Im smart
 3. Im sensitive
+
 ### My aim
 Conquer the world. Buahhaaha! _(Sorry for my kiddig. Or... Not?)_
+
 ### My fears
 - Damn spiders
 - Damn spider web
