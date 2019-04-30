@@ -4,13 +4,12 @@ It's my story
 
 ## Let's begin
 
-`
-**Attention!**This content can shock u.
-`
+_**Attention!**This content can shock u_
+
 ### Main things
-1.Im funny
-2.Im smart
-3.Im sensitive
+1. Im funny
+2. Im smart
+3. Im sensitive
 ### My aim
 Conquer the world. Buahhaaha! _(Sorry for my kiddig. Or... Not?)_
 ### My fears
