@@ -1,24 +1,28 @@
-font-family: Geneva, Arial, Helvetica, sans-serif;
 h1 {
   color: #326464;
   font-weight: bold;
   text-align: center;
   font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 h2 {
   color: #ff4848;
   font-weight: bold;
   text-align: center;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 h3 {
-  color: #ff3232;
+  color: #003232;
   font-weight: bold;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
-font-family: Georgia, 'Times New Roman', Times, serif;
-p {
-  color: #640000;
+p, article {
+  color: #001616;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
-article {
-  color: #640000;
-  
+article1 {
+  width: 600px;
 }
