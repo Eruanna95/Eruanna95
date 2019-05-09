@@ -1,26 +1,38 @@
+body {
+  background-position: center;
+}
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+p, article {
+  font-family: 'Raleway', sans-serif;
+}
+.main_box {
+  width: 100%;
+  min-width: 500px;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
 h1 {
   color: #326464;
   font-weight: bold;
   text-align: center;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 h2 {
   color: #ff4848;
   font-weight: bold;
   text-align: center;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 h3 {
   color: #003232;
   font-weight: bold;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 p {
   color: #001616;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
 }
 #article1 {
