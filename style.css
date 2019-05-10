@@ -17,7 +17,7 @@ p, article {
 #articles {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 h1 {
   color: #326464;
@@ -42,7 +42,7 @@ p {
 }
 #article1, #article2 {
   min-width: 300px;
-  max-width: 500px;
+  max-width: 600px;
   padding: 30px;
   margin: 10px 10px 10px 10px;
   background-color: #050505;
