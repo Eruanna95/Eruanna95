@@ -14,7 +14,7 @@ p, article {
   position: relative;
   margin: 0 auto;
 }
-#articles {
+#articles, .main_th {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,6 +46,13 @@ p {
   padding: 30px;
   background-color: #eee;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.list {
+  min-width: 150px;
+  max-width: 350px;
+  padding: 30px;
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
 #article1 {
   margin: 0px 5px 0px 0px;
