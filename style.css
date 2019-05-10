@@ -46,3 +46,9 @@ p {
   padding: 30px;
   background-color: #dddddd;
 }
+#article1 {
+  margin: 0px 0px 0px 5px;
+}
+#article2 {
+  margin: 0px 0px 5px 0px;
+}
