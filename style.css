@@ -14,7 +14,7 @@ p, article {
   position: relative;
   margin: 0 auto;
 }
-.dve_statyi {
+.articles {
   display: flex;
   flex-direction: row;
   justify-content: center;
