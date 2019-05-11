@@ -77,7 +77,7 @@
   }
   .main_box {
     width: 100%;
-    min-width: 500px;
+    min-width: 200px;
     max-width: 1200px;
     position: relative;
     margin: 0 auto;
@@ -109,7 +109,7 @@
     font-size: 16px;
   }
   #article1, #article2 {
-    min-width: 300px;
+    min-width: 200px;
     max-width: 600px;
     padding: 30px;
     background-color: #eee;
@@ -117,7 +117,7 @@
     border-radius: 7px;
   }
   .list {
-    min-width: 150px;
+    min-width: 200px;
     max-width: 350px;
     padding: 30px;
     background-color: #eee;
