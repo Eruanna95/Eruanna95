@@ -13,6 +13,7 @@
 body {
   background-position: center;
   background-color: #aaeedd;
+  background-image: url(bg.jpg);
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
