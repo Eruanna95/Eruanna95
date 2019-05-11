@@ -98,6 +98,7 @@ p {
     min-width: 720px;
     max-width: 1000px;
     height: 1000px;
+    background-position: center;
 }
 #f_1 {
     grid-row: 1/5;
