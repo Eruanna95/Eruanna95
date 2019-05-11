@@ -95,6 +95,9 @@ p {
     display: grid;
     grid-template: 3fr 3fr 2fr 2fr/ 2fr 3fr 3fr 2fr;
     padding: 0;
+    min-width: 720px;
+    max-width: 1000px;
+    height: 1000px;
 }
 #f_1 {
     grid-row: 1/5;
