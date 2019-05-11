@@ -10,7 +10,7 @@
   }
   .main_box {
     width: 100%;
-    min-width: 500px;
+    min-width: 200px;
     max-width: 1200px;
     position: relative;
     margin: 0 auto;
@@ -42,7 +42,7 @@
     font-size: 16px;
   }
   #article1, #article2 {
-    min-width: 300px;
+    min-width: 200px;
     max-width: 600px;
     padding: 30px;
     background-color: #eee;
@@ -50,18 +50,15 @@
     border-radius: 7px;
   }
   .list {
-    min-width: 150px;
+    min-width: 200px;
     max-width: 350px;
     padding: 30px;
     background-color: #eee;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 7px;
   }
-  #article1 {
-    margin: 0px 10px 0px 0px;
-  }
-  #article2 {
-    margin: 0px 0px 0px 10px;
+  #article1, #article2, .list {
+    margin: 10px;
   }
 }
 
@@ -124,10 +121,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 7px;
   }
-  #article1 {
-    margin: 0px 0px 10px 0px;
-  }
-  #article2 {
-    margin: 10px 0px 0px 0px;
+   #article1, #article2, .list {
+    margin: 10px;
   }
 }
