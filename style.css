@@ -72,6 +72,7 @@ p {
   background-color: #fff;
   box-shadow: 0 0 15px rgba(0,0,0,0.7);
   border-radius: 7px;
+  cursor: pointer;
 }
 .list:hover, #article1:hover, #article2:hover {
   background-color: #eeffee;
