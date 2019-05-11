@@ -127,15 +127,15 @@ p {
 #f_1, #f_2, #f_3, #f_4, #f_5, #f_6, {
   margin: 2px;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .f_num {
   font-weight: bold;
   text-align: center;
   font-size: 50px;
-  position: absolute;	/* Абсолютное позиционирование */
-  left: 50%; /* Положение слоя от левого края */
-  top: 50%;
+  /*position: absolute;	/* Абсолютное позиционирование */
+  /*left: 50%; /* Положение слоя от левого края */
+  /*top: 50%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
