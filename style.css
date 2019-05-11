@@ -54,6 +54,9 @@ p {
   color: #001616;
   font-size: 16px;
 }
+.simple_p {
+    margin: 0px 30px;
+}
 #article1, #article2 {
   min-width: 200px;
   max-width: 600px;
