@@ -55,6 +55,7 @@ p {
 #article1, #article2 {
   min-width: 200px;
   max-width: 600px;
+  max-height: 300px;
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
