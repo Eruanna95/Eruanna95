@@ -79,6 +79,7 @@ p {
 .list:hover, #article1:hover, #article2:hover {
   background-color: #eeffee;
   border: 2px solid #ccffcc;
+  white-space: normal;
 }
 #article1, #article2, .list {
   margin: 10px;
