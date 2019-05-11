@@ -27,6 +27,7 @@ p, article {
   max-width: 1200px;
   position: relative;
   margin: 0 auto;
+  padding: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
   background-color: #eee;
 }
@@ -61,14 +62,15 @@ p {
 #article1, #article2 {
   min-width: 200px;
   max-width: 600px;
-  max-height: 300px;
+  max-height: 250px;
   padding: 30px;
   background-color: #fff;
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
   border-radius: 7px;
   border: 2px solid #fff;
   cursor: pointer;
-  text-overflow: clip | ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .list {
   min-width: 200px;
