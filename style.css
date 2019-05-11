@@ -119,10 +119,10 @@ p {
     grid-area: 3/3/5/5;
 }
 #f_1, #f_4, #f_6, {
-  background-color: #10ffff;  
+  background: #10ffff;  
 }
 #f_2, #f_3, #f_5, {
-  background-color: #ffff10;  
+  background: #ffff10;  
 }
 #f_1, #f_2, #f_3, #f_4, #f_5, #f_6, {
   margin: 2px;
