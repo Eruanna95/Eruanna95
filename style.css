@@ -12,7 +12,7 @@
 
 body {
   background-position: center;
-  background-color: #eee;
+  background-color: #aaeedd;
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
@@ -26,6 +26,8 @@ p, article {
   max-width: 1200px;
   position: relative;
   margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  background-color: #eee;
 }
 #articles, .main_th {
   display: flex;
@@ -58,7 +60,7 @@ p {
   max-height: 300px;
   padding: 30px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
   border-radius: 7px;
   border: 2px solid #fff;
   cursor: pointer;
@@ -69,7 +71,7 @@ p {
   max-width: 350px;
   padding: 30px;
   background-color: #fff;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
   border-radius: 7px;
   border: 2px solid #fff;
   cursor: pointer;
