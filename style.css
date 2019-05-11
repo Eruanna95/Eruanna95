@@ -60,7 +60,6 @@ p {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   border-radius: 7px;
-  border: 2px solid #fff;
   cursor: pointer;
   white-space: nowrap; /* Отменяем перенос текста */
   overflow: hidden; /* Обрезаем содержимое */
@@ -73,11 +72,10 @@ p {
   background-color: #fff;
   box-shadow: 0 0 15px rgba(0,0,0,0.7);
   border-radius: 7px;
-  border: 2px solid #fff;
 }
 .list:hover, #article1:hover, #article2:hover {
   background-color: #eeffee;
-  border: 2px solid #ccffcc;
+  border: 2px solid inset #ccffcc;
 }
 #article1, #article2, .list {
   margin: 10px;
