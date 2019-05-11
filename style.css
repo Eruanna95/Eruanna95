@@ -15,6 +15,7 @@ body {
   background-color: #aaeedd;
   background-image: url(bg.jpg);
   background-attachment: fixed;
+  opacity: 0.7;
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
