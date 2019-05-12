@@ -94,10 +94,10 @@ nav {
     cursor: pointer;
 }
 #1-mm-button {
-    border-radius: 7px 0px 0px 7px;
+    border-radius: 7px 0 0 7px;
 }
 #5-mm-button {
-    border-radius: 0px 7px 7px 0px;
+    border-radius: 0 7px 7px 0;
 }
 p, article {
   font-family: 'Raleway', sans-serif;
