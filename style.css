@@ -33,9 +33,9 @@ p, article {
   padding: 0px 20px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.4);*/
   background-color: rgba(250,250,250);
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
 }
 #articles, .main_th {
   display: flex;
@@ -103,6 +103,7 @@ p {
     max-width: 1000px;
     grid-gap: 8px;
     margin: 10px 0px;
+    position: relative;
 }
 #f_1 {
     grid-row: 1/5;
