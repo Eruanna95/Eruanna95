@@ -93,10 +93,10 @@ nav {
     color: #fff;
     cursor: pointer;
 }
-#1-mm-button {
+#mm-button1 {
     border-radius: 7px 0 0 7px;
 }
-#5-mm-button {
+#mm-button5 {
     border-radius: 0 7px 7px 0;
 }
 p, article {
