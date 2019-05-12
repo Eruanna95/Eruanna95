@@ -102,8 +102,12 @@ p {
     min-width: 700px;
     max-width: 1000px;
     grid-gap: 8px;
-    margin: 10px 0px;
-    position: relative;
+    margin: 10px auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 #f_1 {
     grid-row: 1/5;
