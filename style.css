@@ -5,6 +5,12 @@
     .f_num {
       font-size: 50px;
     }
+      .main_menu_button {
+        font-size: 24px;
+    }
+    .main_menu_button:hover {
+        font-size: 24px;
+    }
 }
 @media all and (max-width: 720px) {
     #articles, .main_th {
@@ -14,6 +20,12 @@
   .f_num {
     font-size: 30px;
   }
+    .main_menu_button {
+        font-size: 16px;
+    }
+    .main_menu_button:hover {
+        font-size: 16px;
+    }
 }
 
 body {
@@ -28,6 +40,7 @@ h1, h2, h3 {
 }
 nav {
     max-width: 1000px;
+    mшт-width: 200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
@@ -51,7 +64,6 @@ nav {
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 15px 20px;
-    font-size: 24px;
     color: #ff4848;
 }
 .main_menu_button:hover {
@@ -61,7 +73,6 @@ nav {
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 15px 20px;
-    font-size: 24px;
     text-decoration: underline;
     font-weight: bold;
     color: #fff;
