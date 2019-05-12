@@ -31,7 +31,7 @@ p, article {
   margin: 0 auto;
   padding: 20px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.4);*/
-  background-color: #eee;
+  background-color: #fee;
 }
 #articles, .main_th {
   display: flex;
@@ -118,11 +118,11 @@ p {
 #f_6 {
     grid-area: 3/3/5/5;
 }
-#f_1, #f_4, #f_6, {
+#f_1, #f_4, #f_6 {
   background-color: rgba(50,255,255,0);
   /*background-color: #10ffff; */ 
 }
-#f_2, #f_3, #f_5, {
+#f_2, #f_3, #f_5 {
   background-color: rgba(255,255,50,0);
   /*background-color: #ffff10;  */
 }
