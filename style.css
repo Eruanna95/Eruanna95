@@ -103,11 +103,6 @@ p {
     max-width: 1000px;
     grid-gap: 8px;
     margin: 10px auto;
-    position: absolute;
-    /*top: 0;
-    bottom: 0;*/
-    right: 0;
-    left: 0;
 }
 #f_1 {
     grid-row: 1/5;
