@@ -31,7 +31,7 @@ p, article {
   margin: 0 auto;
   padding: 20px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.4);*/
-  background-color: #fee;
+  background-color: rgba(250);
 }
 #articles, .main_th {
   display: flex;
