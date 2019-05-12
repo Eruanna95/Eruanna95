@@ -37,6 +37,7 @@ nav {
     justify-content: stretch;
     align-items: center;
     list-style-type: none;
+    margin: 0;
 }
 .main_menu_button {
     display: flex;
