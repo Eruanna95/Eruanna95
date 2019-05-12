@@ -50,6 +50,7 @@ nav {
     max-width: 1000px;
     min-width: 200px;
     display: flex;
+    flex-grow: 1;
     flex-wrap: nowrap;
     justify-content: stretch;
     align-items: center;
@@ -57,23 +58,23 @@ nav {
     padding: 0;
 }
 .main_menu_button {
-    height: 30px;
     flex-grow: 1;
     display: flex;
     align-items: center;
     background-color: rgba(255,200,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
+    padding: 20px auto;
     link: #ff4848;
 }
 .main_menu_button:hover {
-    height: 30px;
     flex-grow: 1;
     display: flex;
     align-items: center;
     background-color: rgba(255,220,50);
     font-family: 'Oswald', sans-serif;
     margin: 0;
+    padding: 20px auto;
     text-decoration: underline;
     font-weight: bold;
     link: #fff;
