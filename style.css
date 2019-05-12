@@ -75,7 +75,7 @@ p {
   text-overflow: ellipsis;
 }
 .list {
-  min-width: 170px;
+  min-width: 160px;
   max-width: 350px;
   padding: 30px;
   background-color: #fff;
