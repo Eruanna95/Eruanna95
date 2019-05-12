@@ -51,28 +51,30 @@ nav {
 .main_menu {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
     justify-content: stretch;
     align-items: center;
     margin: 0;
     padding: 0;
 }
 .main_menu_button {
+    width:auto;
     display: flex;
     align-items: center;
     background-color: rgba(255,200,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    padding: 15px 20px;
+    padding: 15px auto;
     color: #ff4848;
 }
 .main_menu_button:hover {
+    width:auto;
     display: flex;
     align-items: center;
     background-color: rgba(255,220,50);
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    padding: 15px 20px;
+    padding: 15px auto;
     text-decoration: underline;
     font-weight: bold;
     color: #fff;
