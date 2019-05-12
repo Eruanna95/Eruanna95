@@ -43,12 +43,14 @@ p, article {
 }
 .main_th {
   max-width: 1000px;
+  margin: 10px auto;
 }
 h1 {
   color: #326464;
   font-weight: bold;
   text-align: center;
   font-size: 48px;
+  margin: 20px auto;
 }
 h2 {
   color: #ff4848;
@@ -95,7 +97,7 @@ p {
   background-color: #eefffc;
   border: 2px solid #ccfffc;
 }
-#article1, #article2, .list, #figures {
+#article1, #article2, .list {
   margin: 10px;
 }
 #figures {
