@@ -41,6 +41,9 @@ p, article {
   display: flex;
   justify-content: space-between;
 }
+.main_th {
+  max-width: 1000px;
+}
 h1 {
   color: #326464;
   font-weight: bold;
