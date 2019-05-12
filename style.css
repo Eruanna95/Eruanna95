@@ -84,6 +84,8 @@ nav {
     padding-bottom: 20px;
     text-decoration: underline;
     font-weight: bold;
+    color: #fff;
+    cursor: pointer;
 }
 #1-mm-button {
     border-radius: 7px 0px 0px 7px;
