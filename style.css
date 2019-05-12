@@ -35,11 +35,13 @@ body {
   background-attachment: fixed;
   margin: 0 auto;
 }
-.main_menu_button a {
+.main_menu a {
   color: #ff4848;
+  text-decoration-line: none;
 }
-.main_menu_button a:hover {
+.main_menu a:hover {
   color: #fff;
+  text-decoration-line: underline;
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
