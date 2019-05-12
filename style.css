@@ -58,7 +58,7 @@ nav {
     padding: 0;
 }
 .main_menu_button {
-    width:auto;
+    flex-grow: 1;
     display: flex;
     align-items: center;
     background-color: rgba(255,200,30);
@@ -68,7 +68,7 @@ nav {
     color: #ff4848;
 }
 .main_menu_button:hover {
-    width:auto;
+    flex-grow: 1;
     display: flex;
     align-items: center;
     background-color: rgba(255,220,50);
