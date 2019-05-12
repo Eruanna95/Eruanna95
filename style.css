@@ -40,20 +40,17 @@ h1, h2, h3 {
 }
 nav {
     max-width: 1000px;
-    mшт-width: 200px;
+    min-width: 200px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: stretch;
-    align-items: center;
+    padding: 0;
     alink: #fff;
     vlink: #aaa;
 }
 .main_menu {
+    max-width: 1000px;
+    min-width: 200px;
     display: flex;
     flex-wrap: nowrap;
-    width: auto;
     justify-content: stretch;
     align-items: center;
     margin: 0;
