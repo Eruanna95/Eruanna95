@@ -58,10 +58,10 @@ nav {
     text-decoration: underline;
     font-weight: bold;
 }
-1_mm_button {
+#1_mm_button {
     border-radius: 7px 0 0 7px;
 }
-5_mm_button {
+#5_mm_button {
     border-radius: 0 7px 7px 0;
 }
 p, article {
