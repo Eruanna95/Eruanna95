@@ -93,12 +93,12 @@ p {
 }
 #figures {
     display: grid;
-    grid-template: 3fr 3fr 2fr 2fr/ 2fr 3fr 3fr 2fr;
+    grid-template: 300px 300px 200px 200px/ 2fr 3fr 3fr 2fr;
     padding: 0;
-    min-width: 720px;
+    /*min-width: 720px;
     max-width: 1000px;
-    height: 1000px;
-    background-position: center;
+    background-position: center;*/
+    grid-gap: 5px;
 }
 #f_1 {
     grid-row: 1/5;
@@ -119,10 +119,12 @@ p {
     grid-area: 3/3/5/5;
 }
 #f_1, #f_4, #f_6, {
-  background: #10ffff;  
+  background-color: rgba(50,255,255,0);
+  /*background-color: #10ffff; */ 
 }
 #f_2, #f_3, #f_5, {
-  background: #ffff10;  
+  background-color: rgba(255,255,50,0);
+  /*background-color: #ffff10;  */
 }
 #f_1, #f_2, #f_3, #f_4, #f_5, #f_6, {
   margin: 2px;
@@ -132,10 +134,10 @@ p {
   font-weight: bold;
   text-align: center;
   font-size: 50px;
-  /*position: absolute;	/* Абсолютное позиционирование */
-  /*left: 50%; /* Положение слоя от левого края */
-  /*top: 50%;*/
-  display: flex;
+  position: relative;	/* Абсолютное позиционирование */
+  left: 50%; /* Положение слоя от левого края */
+  top: 50%;
+ /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
