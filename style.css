@@ -43,7 +43,16 @@ h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0px 10px;
-    text-size: 24px;
+    font-size: 24px;
+}
+.main_menu_button:hover {
+    background-color: rgba(205,150,30);
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0px 10px;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 1_mm_button {
     border-radius: 7px 0 0 7px;
