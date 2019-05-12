@@ -34,9 +34,12 @@ body {
   background-image: url(bg.jpg);
   background-attachment: fixed;
   margin: 0 auto;
-  link: #ff4848;
-  alink: #fff;
-  vlink: #aaa;
+}
+.main_menu_button a {
+  color: #ff4848;
+}
+.main_menu_button a:hover {
+  color: #fff;
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
@@ -61,6 +64,7 @@ nav {
 .main_menu_button {
     flex-grow: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgba(255,200,30);
     font-family: 'Oswald', sans-serif;
@@ -71,6 +75,7 @@ nav {
 .main_menu_button:hover {
     flex-grow: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgba(255,220,50);
     font-family: 'Oswald', sans-serif;
