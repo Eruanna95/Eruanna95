@@ -64,7 +64,8 @@ nav {
     background-color: rgba(255,200,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    padding: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     link: #ff4848;
 }
 .main_menu_button:hover {
@@ -74,7 +75,8 @@ nav {
     background-color: rgba(255,220,50);
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    padding: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: underline;
     font-weight: bold;
     link: #fff;
