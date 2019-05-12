@@ -26,19 +26,21 @@ body {
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
-/*nav {
-   display: flex;
-  justify-content: space-evenly;
-}*/
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .main_menu {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: stretch;
     align-items: center;
     list-style-type: none;
 }
 .main_menu_button {
+    display: flex;
+    align-items: center;
     background-color: rgba(255,200,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -46,6 +48,8 @@ h1, h2, h3 {
     font-size: 24px;
 }
 .main_menu_button:hover {
+    display: flex;
+    align-items: center;
     background-color: rgba(205,150,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
