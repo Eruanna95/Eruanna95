@@ -222,6 +222,7 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 7px;
+  color: #fff;
 }
 .f_num {
   font-weight: bold;
