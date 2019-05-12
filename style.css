@@ -34,6 +34,9 @@ body {
   background-image: url(bg.jpg);
   background-attachment: fixed;
   margin: 0 auto;
+  link: #ff4848;
+  alink: #fff;
+  vlink: #aaa;
 }
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
@@ -43,8 +46,6 @@ nav {
     min-width: 200px;
     margin: 0 auto;
     padding: 0;
-    alink: #fff;
-    vlink: #aaa;
 }
 .main_menu {
     max-width: 1000px;
@@ -66,7 +67,6 @@ nav {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    link: #ff4848;
 }
 .main_menu_button:hover {
     flex-grow: 1;
@@ -79,7 +79,6 @@ nav {
     padding-bottom: 20px;
     text-decoration: underline;
     font-weight: bold;
-    link: #fff;
 }
 #1-mm-button {
     border-radius: 7px 0px 0px 7px;
