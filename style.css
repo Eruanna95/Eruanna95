@@ -99,7 +99,7 @@ p {
     /*min-width: 720px;
     max-width: 1000px;
     background-position: center;*/
-    grid-gap: 5px;
+    grid-gap: 8px;
 }
 #f_1 {
     grid-row: 1/5;
