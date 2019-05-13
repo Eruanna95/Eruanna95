@@ -128,7 +128,8 @@ p, article {
   margin: 0 auto;
   padding: 40px 20px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.4);*/
-  background-color: rgba(250,250,250);
+  /*background-color: rgba(250,250,250); старый*/
+  background-color: rgba(0,0,0,0.8);
   /*display: flex;
   flex-direction: column;
   align-items: center;*/
@@ -142,7 +143,8 @@ p, article {
   margin: 10px auto;
 }
 h1 {
-  color: #326464;
+  /*color: #326464;*/
+  color: rgba(255,200,30);
   font-weight: bold;
   text-align: center;
   font-size: 48px;
