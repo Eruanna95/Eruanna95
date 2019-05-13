@@ -115,7 +115,7 @@ body {
   margin: 0 auto;
 }
 h1 {
-  color: rgba(255,200,30);
+  color: rgb(255,200,30);
   font-weight: bold;
   text-align: center;
   font-size: 48px;
@@ -159,7 +159,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,200,30);
+    background-color: rgb(255,200,30);
     font-family: 'Oswald', sans-serif;
     margin: 0;
     /*padding-top: 20px;
@@ -170,7 +170,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,220,50);
+    background-color: rgb(255,220,50);
     font-family: 'Oswald', sans-serif;
     margin: 0;
     /*padding-top: 20px;
@@ -289,13 +289,13 @@ p {
     grid-area: 3/3/5/5;
 }
 #f_1, #f_4 {
-  background-color: rgba(30,220,255);
+  background-color: rgb(30,220,255);
 }
 #f_3, #f_5 {
-  background-color: rgba(255,200,30);
+  background-color: rgb(255,200,30);
 }
 #f_2, #f_6 {
-  background-color: rgba(190,245,0);
+  background-color: rgb(190,245,0);
 }
 #f_1, #f_2, #f_3, #f_4, #f_5, #f_6 {
   display: flex;
