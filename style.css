@@ -11,6 +11,27 @@
     .main_menu_button:hover {
         font-size: 24px;
     }
+    #page_top {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        padding: 0;
+        min-width: 200px;
+        max-width: 1000px;
+        margin: 15px auto;
+    }
+    #logo_img {
+        width: 100%;
+        height: auto;
+    }
+    .logo {
+        grid-column-start: 1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    h1 {
+      grid-column-start: 2;
+    }
 }
 @media all and (max-width: 720px) and (min-width: 400px) {
     #articles, .main_th {
@@ -25,6 +46,27 @@
     }
     .main_menu_button:hover {
         font-size: 16px;
+    }
+      #page_top {
+        display: grid;
+        grid-template-rows: 80px 1fr;
+        padding: 0;
+        min-width: 200px;
+        max-width: 1000px;
+        margin: 15px auto;
+    }
+    #logo_img {
+        width: auto;
+        height: 100%;
+    }
+    .logo {
+        grid-row-start: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+      grid-row-start: 2;
     }
 }
 
@@ -42,6 +84,27 @@
     .main_menu_button:hover {
         font-size: 12px;
     }
+      #page_top {
+        display: grid;
+        grid-template-rows: 80px 1fr;
+        padding: 0;
+        min-width: 200px;
+        max-width: 1000px;
+        margin: 15px auto;
+    }
+    #logo_img {
+        width: auto;
+        height: 100%;
+    }
+    .logo {
+        grid-row-start: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+      grid-row-start: 2;
+    }
 }
 
 body {
@@ -51,27 +114,7 @@ body {
   background-attachment: fixed;
   margin: 0 auto;
 }
-#page_top {
-    display: grid;
-    grid-template-columns: 80px 1fr;
-    padding: 0;
-    min-width: 200px;
-    max-width: 1000px;
-    margin: 15px auto;
-}
-#logo_img {
-    width: 100%;
-    height: auto;
-}
-.logo {
-    grid-column-start: 1;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
 h1 {
-  grid-column-start: 2;
-  /*color: #326464;*/
   color: rgba(255,200,30);
   font-weight: bold;
   text-align: center;
