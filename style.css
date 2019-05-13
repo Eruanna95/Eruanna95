@@ -167,6 +167,7 @@ p {
 }
 .simple_p {
     margin: 10px 30px;
+    color: #fff;
 }
 #article1, #article2 {
   min-width: 200px;
