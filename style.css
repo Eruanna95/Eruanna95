@@ -65,7 +65,10 @@ body {
 }
 .logo {
     grid-column-start: 1;
-    width: 100%
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: center;
 }
 h1 {
   grid-column-start: 2;
