@@ -57,7 +57,7 @@ body {
     padding: 0;
     min-width: 200px;
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 15px auto;
 }
 .logo {
     grid-column-start: 1;
