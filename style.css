@@ -53,11 +53,15 @@ body {
 }
 #page_top {
     display: grid;
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 80px 1fr;
     padding: 0;
     min-width: 200px;
     max-width: 1000px;
     margin: 15px auto;
+}
+#logo_img {
+    width: 100%;
+    height: auto;
 }
 .logo {
     grid-column-start: 1;
