@@ -3,14 +3,12 @@ canvas {
   border: 1px solid black;
 }
 #numL {
-  width: 50%;
-  height: 20px;
+  width: 70px;
+  height: 30px;
   color: red;
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
 }
 #warning {
   color: red;
-  height: 20px;
-  font-family: 'Oswald', sans-serif;
+  margin: 10px auto;
 }
