@@ -3,7 +3,8 @@ canvas {
   border: 1px solid black;
 }
 #numL {
-  width: 70px;
+  max-width: 500px;
+  min-width: 200px;
   height: 30px;
   color: red;
   font-size: 20px;
