@@ -1,15 +1,15 @@
 canvas {
   display: block;
-  border: 1px solid black;
+  border: 1px solid rgb(255,200,30);
+  border-radius: 7px;
 }
 #numL {
   max-width: 500px;
   min-width: 200px;
   height: 30px;
-  color: red;
   font-size: 20px;
 }
 #warning {
-  color: red;
+  color: #fff;
   margin: 10px auto;
 }
