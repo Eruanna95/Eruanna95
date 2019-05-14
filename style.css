@@ -308,7 +308,7 @@ p {
   font-weight: bold;
   text-align: center;
 }
-#form_review input {
+input {
     border-radius: 7px;
     border: 2px solid rgb(255,200,30);
     font-size: 20px;
