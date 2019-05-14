@@ -186,7 +186,7 @@ nav {
 #mm-button5 {
     border-radius: 0 7px 7px 0;
 }
-p, article, input, button {
+p, article, input, button, textarea {
   font-family: 'Raleway', sans-serif;
 }
 .main_box {
@@ -308,7 +308,7 @@ p {
   font-weight: bold;
   text-align: center;
 }
-input {
+input, textarea {
     border-radius: 7px;
     border: 2px solid rgb(255,200,30);
     font-size: 20px;
