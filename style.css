@@ -323,7 +323,7 @@ input {
 #review {
     max-width: 1000px;
     min-width: 200px;
-    mix-height: 200px;
+    min-height: 200px;
     max-height: 500px;
 }
 #form_review, #WBflower {
