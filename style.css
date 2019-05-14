@@ -186,7 +186,7 @@ nav {
 #mm-button5 {
     border-radius: 0 7px 7px 0;
 }
-p, article {
+p, article, input {
   font-family: 'Raleway', sans-serif;
 }
 .main_box {
@@ -307,6 +307,23 @@ p {
 .f_num {
   font-weight: bold;
   text-align: center;
+}
+#form_review input {
+    border-radius: 7px;
+    border: 2px solid rgb(255,200,30);
+    font-size: 20px;
+}
+#name {
+    max-width: 500px;
+    min-width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+#review {
+    max-width: 1000px;
+    min-width: 200px;
+    mix-height: 200px;
+    max-height: 500px;
 }
 #form_review, #WBflower {
     max-width: 1000px;
