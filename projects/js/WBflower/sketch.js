@@ -23,9 +23,9 @@ function setup() {
 function draw() {
   translate(width/2,height/2);
   scale(L);
-  background(245,180,180);
+  background(255);
   noStroke();
-	fill(255);
+	fill(#001616);
   for (let j=0; j<a; j++) {
     push();
     translate(0,-2*PI*5*a);
@@ -33,13 +33,13 @@ function draw() {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(0);
+    fill(#ff4848);
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(255,0,0);
+    fill(255,200,30);
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
