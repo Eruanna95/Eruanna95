@@ -49,6 +49,7 @@ function draw() {
     rotate(radians(360/a));
   }
   push();
+	fill(255,200,30);
   scale(((2*PI*5*a)*2-200)/200);
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
