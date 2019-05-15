@@ -1,7 +1,7 @@
 canvas {
   display: block;
   border: 2px solid rgb(255,200,30);
-  border-radius: 7px;
+  border-radius: 30px;
 }
 #numL {
   max-width: 500px;
