@@ -15,8 +15,8 @@ function setup() {
 			L = 1;
 		}
 	}*/
-	if (flower.style.width < 800) {
-			L = flower.style.width / 800;
+	if (flower.style.clientWidth < 800) {
+			L = flower.style.clientWidth / 800;
 		} else { //здесь я делаю так, что увелчичиваться масштаб не может даже на любых бОльших мониторах (макимальное значение стороны холста остается 900)
 			L = 1;
 		}
