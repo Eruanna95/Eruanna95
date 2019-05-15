@@ -25,7 +25,7 @@ function draw() {
   scale(L);
   background(255);
   noStroke();
-	fill(#001616);
+	fill('#001616');
   for (let j=0; j<a; j++) {
     push();
     translate(0,-2*PI*5*a);
@@ -33,7 +33,7 @@ function draw() {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(#ff4848);
+    fill('#ff4848');
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
@@ -54,13 +54,13 @@ function draw() {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(#001616);
+    fill('#001616');
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(#ff4848);
+    fill('#ff4848');
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
