@@ -15,8 +15,8 @@ function setup() {
 			L = 1;
 		}
 	}*/
-	if (WBflower.style.clientWidth < 800) {
-			L = WBflower.style.clientWidth / 800;
+	if (warning.style.clientWidth < 800) {
+			L = warning.style.clientWidth / 800;
 		} else { //здесь я делаю так, что увелчичиваться масштаб не может даже на любых бОльших мониторах (макимальное значение стороны холста остается 900)
 			L = 1;
 		}
@@ -73,8 +73,8 @@ function draw() {
       rotate(radians(360/a));
     }
   pop();
-	if (WBflower.style.clientWidth < 800) {
-		L = WBflower.style.clientWidth / 800;
+	if (warning.style.clientWidth < 800) {
+		L = warning.style.clientWidth / 800;
 	} else { //здесь я делаю так, что увелчичиваться масштаб не может даже на любых бОльших мониторах (макимальное значение стороны холста остается 900)
 		L = 1;
 	}
