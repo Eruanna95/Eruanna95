@@ -54,13 +54,13 @@ function draw() {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(0);
+    fill(#001616);
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
       rotate(radians(360/a));
     }
-    fill(255,0,0);
+    fill(#ff4848);
     rotate(radians(360/a/3));
     for (let i=0; i<a; i++) {
       ellipse(0,-50,10,100);
