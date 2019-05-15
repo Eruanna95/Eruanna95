@@ -78,13 +78,14 @@ function draw() {
 	} else { //здесь я делаю так, что увелчичиваться масштаб не может даже на любых бОльших мониторах (макимальное значение стороны холста остается 900)
 		L = 1;
 	}
+	resizeCanvas();
 }
 
 function resizeCanvas() {
     canvas.width = 800*L;
     canvas.height = 800*L;
     // Redraw everything after resizing the window
-    draw(); 
+   // draw(); 
   }
 
 function changenumL() {
