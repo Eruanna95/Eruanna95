@@ -73,7 +73,18 @@ function draw() {
       rotate(radians(360/a));
     }
   pop();
+	L = WBflower.style.clientWidth / 800;
+		} else { //здесь я делаю так, что увелчичиваться масштаб не может даже на любых бОльших мониторах (макимальное значение стороны холста остается 900)
+			L = 1;
+		}
 }
+
+function resizeCanvas() {
+    canvas.width = 800*L;
+    canvas.height = 800*L;
+    // Redraw everything after resizing the window
+    draw(); 
+  }
 
 function changenumL() {
   if(!isNaN(Number(numL.value))) {
