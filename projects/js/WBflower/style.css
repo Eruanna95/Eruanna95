@@ -10,6 +10,8 @@ canvas {
   font-size: 20px;
 }
 #warning {
+  max-width: 800px;
+  min-width: 200px;
   color: #fff;
-  margin: 10px auto;
+  padding: 10px auto;
 }
