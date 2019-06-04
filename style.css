@@ -191,7 +191,7 @@ nav {
 #mm-button5 {
     border-radius: 0 7px 7px 0;
 }
-p, article, input, button, textarea {
+p, article, input, button, textarea, .main_links {
   font-family: 'Raleway', sans-serif;
 }
 .main_box {
@@ -231,6 +231,15 @@ h3 {
 p {
   color: #001616;
   font-size: 16px;
+}
+.main_links {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.main_links: hover {
+  color: #ff4848;
 }
 .simple_p {
     margin: 10px 30px;
