@@ -227,6 +227,10 @@ h3 {
   color: #003232;
   font-weight: bold;
   font-size: 24px;
+  text-align: center;
+  background-color: #999;
+  border-radius: 7px;
+  padding: 5px 15px;
 }
 p {
   color: #001616;
@@ -237,9 +241,10 @@ p {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  margin: 5px 30px;
 }
-.main_links: hover {
-  color: #ff4848;
+.main_links:hover {
+  color: rgb(255,200,30);
 }
 .simple_p {
     margin: 10px 30px;
