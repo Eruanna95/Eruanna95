@@ -230,7 +230,8 @@ h3 {
   text-align: center;
   background-color: #999;
   border-radius: 7px;
-  padding: 5px 15px;
+  padding: 5px 35px;
+  margin: 24px auto;
 }
 p {
   color: #001616;
